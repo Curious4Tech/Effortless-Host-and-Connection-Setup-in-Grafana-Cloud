@@ -20,20 +20,45 @@ This guide will walk you through the steps to add hosts or new connections in Gr
 2. **Navigate to Connections**
    - Once logged in, find the "Connections" option in the left-hand menu and click on it.
 
+![image](https://github.com/user-attachments/assets/0bbe49d6-214f-4ed3-af89-72d5d696190e)
+
+
 3. **Add New Connection**
    - Click on "Add new connection" to start setting up a new connection.
 
+![image](https://github.com/user-attachments/assets/c9bed67d-a103-44a4-aeac-fbe74e44fd2e)
+
 4. **Choose Data Source**
-   - Select the type of data source you want to connect to, such as Prometheus, InfluxDB, etc.
+   - In the search bar, type linux and then hit enter.
 
-5. **Enter Connection Details**
-   - Fill in the required details for the selected data source, including the URL, authentication credentials, and any other necessary information.
+![image](https://github.com/user-attachments/assets/2c9960e7-9238-4b67-9361-663a5086e1c4)
 
-6. **Save Configuration**
-   - Save your configuration to establish the connection.
+   - Select or click on `Linux Server`
 
-7. **Verify Connection**
-   - Check if the connection is successful by viewing the data source in Grafana Cloud. Data should be pulled from the connected source.
+
+
+![image](https://github.com/user-attachments/assets/e59cb90a-31e4-4aa4-9b11-a987cd7276e4)
+
+
+     
+4. **Enter Connection Details**
+   - Fill in the required details,  your `Platform` and `Architecture`  (e.g: Debian , Amd64).
+
+
+![image](https://github.com/user-attachments/assets/a79ca47e-9521-4792-ba99-8f41419ab2b9)
+
+
+6. **Start Configuration**
+   - Scroll down  a little bit and click on `Run Grafana Alloy`.
+
+![image](https://github.com/user-attachments/assets/3e041f25-dad5-464c-b0d9-6d32e90e7428)
+
+
+7. **Create a Token**
+   - In the new windows that is gonna open, you will have to create a new token by giving it a name or use an existing one.
+Then click on `Create`
+
+![image](https://github.com/user-attachments/assets/50adf61d-c5a5-4706-88f8-b4e71139d54d)
 
 8. **Add Hosts**
    - If necessary, add specific hosts by configuring the data source to point to the appropriate endpoints or IP addresses.
